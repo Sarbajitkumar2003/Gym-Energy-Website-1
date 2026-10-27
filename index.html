@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IRON PULSE FITNESS</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800;900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="progress"><span id="progressBar"></span></div>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <span class="logo-icon">IP</span>
+      <span>IRON<span class="red">PULSE</span>
+        <small>FITNESS CLUB</small>
+      </span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav class="nav" id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#programs">Programs</a>
+      <a href="#trainers">Trainers</a>
+      <a href="#membership">Membership</a>
+      <a href="#contact" class="nav-button">Join Now ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero" id="home">
+      <div class="hero-bg"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">● YOUR NEXT LEVEL STARTS HERE</p>
+        <h1>BUILT BY<br><span>DISCIPLINE.</span><br>DEFINED BY YOU.</h1>
+        <p class="hero-text">
+          Train with purpose. Build real strength. Become the strongest
+          version of yourself at Iron Pulse Fitness.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#membership" class="btn btn-red">Explore Membership ↗</a>
+          <a href="#programs" class="btn btn-outline">Explore Programs ↓</a>
+        </div>
+
+        <div class="hero-stat">
+          <div class="avatars"><span>J</span><span>M</span><span>A</span><span>+</span></div>
+          <p><strong>1,200+</strong><br><small>Members on the move</small></p>
+        </div>
+      </div>
+
+      <div class="vertical-text">STRENGTH · FOCUS · PROGRESS</div>
+      <a href="#about" class="scroll-down">↓ &nbsp; SCROLL TO EXPLORE</a>
+    </section>
+
+    <!-- TICKER -->
+    <div class="ticker">
+      <div class="ticker-track">
+        <span>NO SHORTCUTS ✳ JUST PROGRESS ✳ SHOW UP STRONG ✳</span>
+        <span>NO SHORTCUTS ✳ JUST PROGRESS ✳ SHOW UP STRONG ✳</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <p class="section-label reveal">01 / WHO WE ARE ━━━━━</p>
+
+      <div class="about-grid">
+        <div class="reveal">
+          <h2>MORE THAN<br>A <span class="outline">WORKOUT.</span></h2>
+        </div>
+
+        <div class="about-copy reveal">
+          <h3>A place to challenge your limits and build consistency.</h3>
+          <p>
+            Whether you're taking your first step or chasing a new
+            personal best, our training environment helps you keep
+            moving forward. Your journey is personal. Your progress
+            is the goal.
+          </p>
+          <a href="#programs" class="text-link">Find your training style ↗</a>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat reveal">
+          <strong data-count="1200">0</strong><span>ACTIVE MEMBERS</span>
+        </div>
+        <div class="stat reveal">
+          <strong data-count="18">0</strong><span>EXPERT COACHES</span>
+        </div>
+        <div class="stat reveal">
+          <strong data-count="25">0</strong><span>WEEKLY CLASSES</span>
+        </div>
+        <div class="stat reveal">
+          <strong data-count="8">0</strong><span>YEARS OF COMMUNITY</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMS -->
+    <section class="section dark-section" id="programs">
+      <p class="section-label reveal">02 / TRAIN YOUR WAY ━━━━━</p>
+
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">FIND YOUR EDGE</p>
+          <h2>MADE FOR <span>YOUR GOALS.</span></h2>
+        </div>
+        <p>Focused programs. Expert guidance. A stronger you.</p>
+      </div>
+
+      <div class="program-grid">
+        <article class="program-card reveal">
+          <img src="https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?auto=format&fit=crop&w=900&q=85" alt="Strength training" loading="lazy">
+          <span class="number">01</span>
+          <div class="program-info">
+            <small>BUILD POWER</small>
+            <h3>STRENGTH<br>TRAINING</h3>
+            <a href="#contact" aria-label="Ask about strength training">↗</a>
+          </div>
+        </article>
+
+        <article class="program-card reveal">
+          <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=900&q=85" alt="Gym training area" loading="lazy">
+          <span class="number">02</span>
+          <div class="program-info">
+            <small>MOVE BETTER</small>
+            <h3>FUNCTIONAL<br>FITNESS</h3>
+            <a href="#contact" aria-label="Ask about functional fitness">↗</a>
+          </div>
+        </article>
+
+        <article class="program-card reveal">
+          <img src="https://images.unsplash.com/photo-1517836357463-d25dfeac3438?auto=format&fit=crop&w=900&q=85" alt="Personal fitness training" loading="lazy">
+          <span class="number">03</span>
+          <div class="program-info">
+            <small>ONE-ON-ONE</small>
+            <h3>PERSONAL<br>TRAINING</h3>
+            <a href="#contact" aria-label="Ask about personal training">↗</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- FEATURE -->
+    <section class="feature">
+      <div class="feature-image"></div>
+
+      <div class="feature-copy reveal">
+        <p class="eyebrow">THE IRON PULSE STANDARD</p>
+        <h2>YOUR EFFORT.<br><span>OUR ENERGY.</span></h2>
+        <p>
+          Great training is built on more than equipment. It takes
+          a welcoming community, thoughtful coaching and a plan
+          you can stick to.
+        </p>
+
+        <ul class="check-list">
+          <li>✓ Modern training equipment</li>
+          <li>✓ Supportive coaching team</li>
+          <li>✓ Flexible training options</li>
+          <li>✓ A community that keeps you going</li>
+        </ul>
+
+        <a href="#contact" class="btn btn-red">Meet Your New Gym ↗</a>
+      </div>
+    </section>
+
+    <!-- TRAINERS -->
+    <section class="section" id="trainers">
+      <p class="section-label reveal">03 / YOUR COACHING TEAM ━━━━━</p>
+
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">GOOD PEOPLE. GREAT COACHING.</p>
+          <h2>MEET YOUR <span>TEAM.</span></h2>
+        </div>
+        <p>Personal support to help you train with confidence.</p>
+      </div>
+
+      <div class="trainer-grid">
+        <article class="trainer-card reveal">
+          <img src="https://images.unsplash.com/photo-1567013127542-490d757e51fc?auto=format&fit=crop&w=800&q=85" alt="Fitness coach" loading="lazy">
+          <div><small>STRENGTH COACH</small><h3>Alex Morgan</h3><p>Strength & conditioning</p></div>
+        </article>
+
+        <article class="trainer-card reveal">
+          <img src="https://images.unsplash.com/photo-1594381898411-846e7d193883?auto=format&fit=crop&w=800&q=85" alt="Personal trainer" loading="lazy">
+          <div><small>PERSONAL TRAINER</small><h3>Jordan Lee</h3><p>Movement & fitness</p></div>
+        </article>
+
+        <article class="trainer-card reveal">
+          <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&w=800&q=85" alt="Fitness instructor" loading="lazy">
+          <div><small>FITNESS COACH</small><h3>Sam Taylor</h3><p>Functional training</p></div>
+        </article>
+      </div>
+      <p class="note">Sample trainer profiles. Replace with your actual gym team.</p>
+    </section>
+
+    <!-- MEMBERSHIP -->
+    <section class="section dark-section" id="membership">
+      <p class="section-label reveal">04 / MEMBERSHIP ━━━━━</p>
+
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">INVEST IN YOURSELF</p>
+          <h2>CHOOSE YOUR <span>PLAN.</span></h2>
+        </div>
+        <p>Simple options to keep your momentum going.</p>
+      </div>
+
+      <div class="pricing-grid">
+        <article class="price-card reveal">
+          <small>START STRONG</small>
+          <h3>Monthly</h3>
+          <div class="price">₹1,499 <span>/ month</span></div>
+          <p>A flexible way to get into your routine.</p>
+          <ul><li>Gym floor access</li><li>Fitness orientation</li><li>Locker access</li></ul>
+          <a href="#contact" class="btn btn-outline plan-btn" data-plan="Monthly">Choose Monthly ↗</a>
+        </article>
+
+        <article class="price-card featured reveal">
+          <span class="popular">MOST POPULAR</span>
+          <small>STAY CONSISTENT</small>
+          <h3>Quarterly</h3>
+          <div class="price">₹3,999 <span>/ 3 months</span></div>
+          <p>Build a rhythm and keep showing up.</p>
+          <ul><li>Everything in Monthly</li><li>Progress check-in</li><li>Group class access</li></ul>
+          <a href="#contact" class="btn btn-red plan-btn" data-plan="Quarterly">Choose Quarterly ↗</a>
+        </article>
+
+        <article class="price-card reveal">
+          <small>ALL IN</small>
+          <h3>Yearly</h3>
+          <div class="price">₹12,999 <span>/ year</span></div>
+          <p>Make fitness part of your lifestyle.</p>
+          <ul><li>Everything in Quarterly</li><li>Priority class booking</li><li>Monthly goal review</li></ul>
+          <a href="#contact" class="btn btn-outline plan-btn" data-plan="Yearly">Choose Yearly ↗</a>
+        </article>
+      </div>
+      <p class="note">Sample prices only. Update before publishing.</p>
+    </section>
+
+    <!-- QUOTE -->
+    <section class="quote-section">
+      <div class="quote-mark">“</div>
+      <blockquote>Progress isn't made in one day.<br><span>It's made every time you show up.</span></blockquote>
+      <p>THE IRON PULSE MINDSET</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section contact" id="contact">
+      <div class="contact-grid">
+        <div class="contact-copy reveal">
+          <p class="section-label">05 / TAKE THE FIRST STEP ━━━━━</p>
+          <p class="eyebrow">READY WHEN YOU ARE</p>
+          <h2>LET'S GET<br><span>YOU MOVING.</span></h2>
+          <p>Request a tour, ask a question, or tell us which membership you're interested in.</p>
+
+          <div class="contact-detail"><span>✉</span><div><small>EMAIL US</small><strong>hello@ironpulse.example</strong></div></div>
+          <div class="contact-detail"><span>⌖</span><div><small>VISIT US</small><strong>Your city, your address here</strong></div></div>
+          <p class="note">Replace the demo email and address with your real details.</p>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm">
+          <h3>LET'S TALK FITNESS.</h3>
+          <p>Fill in your details and we'll be ready to help.</p>
+
+          <label for="name">Your name</label>
+          <input id="name" name="name" type="text" placeholder="Enter your name" required>
+
+          <label for="email">Email address</label>
+          <input id="email" name="email" type="email" placeholder="you@example.com" required>
+
+          <label for="interest">I'm interested in</label>
+          <select id="interest" name="interest" required>
+            <option value="">Choose an option</option>
+            <option>Gym tour</option>
+            <option>Monthly membership</option>
+            <option>Quarterly membership</option>
+            <option>Yearly membership</option>
+            <option>Personal training</option>
+            <option>Other</option>
+          </select>
+
+          <label for="note">Your goals <span>(optional)</span></label>
+          <textarea id="note" name="note" rows="3" placeholder="Tell us about your goals..."></textarea>
+
+          <button class="btn btn-red submit-btn" type="submit">Send Enquiry ↗</button>
+          <p id="formMessage" class="form-message" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a href="#home" class="logo">
+      <span class="logo-icon">IP</span>
+      <span>IRON<span class="red">PULSE</span><small>FITNESS CLUB</small></span>
+    </a>
+    <p>STRONGER EVERY DAY. ONE REP AT A TIME.</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <small class="copyright">© <span id="year"></span> Iron Pulse Fitness. All rights reserved.</small>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
